@@ -1,0 +1,14 @@
+load{
+	img player core/coin.png;
+	anim ship core/player.png 64 64 1 3 0 1000;
+}
+script{
+	start;
+	place player 500 500;
+	move ship 50 50 1 5;
+	wait;
+	place player 700 500;
+	wait;
+	place player 700 300;
+	end;
+}

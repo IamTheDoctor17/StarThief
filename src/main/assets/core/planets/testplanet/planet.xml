@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<planet
+        xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+        xs:noNamespaceSchemaLocation="../../core/planet.xsd" name="testplanet">
+    <level mapurl="level/level1.tmx" playerStartX="200" playerStartY="200">
+        <entities>
+            <entity id="simple_entity">
+                <data>
+                    <posx>500</posx>
+                    <posy>500</posy>
+                    <width>60</width>
+                    <height>60</height>
+                </data>
+            </entity>
+        </entities>
+        <items>
+            <item id="1">
+                <data>
+                    <posx>50</posx>
+                    <posy>50</posy>
+                </data>
+            </item>
+        </items>
+    </level>
+    <level mapurl="level/level2.tmx" playerStartX="200" playerStartY="200">
+    </level>
+</planet>

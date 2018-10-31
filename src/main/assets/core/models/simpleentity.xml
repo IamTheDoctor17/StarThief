@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<simpleentity xs:noNamespaceSchemaLocation="simpleentity.xsd"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+    <resource>
+        <location>textures/simpleentity.png</location>
+    </resource>
+    <data>
+        <posx>150</posx>
+        <posy>100</posy>
+        <width>60</width>
+        <height>60</height>
+    </data>
+</simpleentity>

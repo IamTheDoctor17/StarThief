@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<object xs:noNamespaceSchemaLocation="object.xsd"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+    <resource>
+        <location>textures/object.png</location>
+    </resource>
+    <data>
+        <posx>100</posx>
+        <posy>100</posy>
+        <width>64</width>
+        <height>64</height>
+    </data>
+</object>

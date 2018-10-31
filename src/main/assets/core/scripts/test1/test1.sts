@@ -1,0 +1,19 @@
+load{
+	img earth scripts/test1/earth.jpg;
+	img money scripts/test1/money.jpg;
+	img txt1 scripts/test1/txt1.png;
+	img txt2 scripts/test1/txt2.png;
+	img txt3 scripts/test1/txt3.png;
+}
+script{
+	start;
+	move earth -50 -50 0.4 8;
+	place txt1 440 500;
+	wait;
+	move earth -50 -50 -2.3 8;
+	place txt2 440 500;
+	wait;
+	move money -50 -50 3 8;
+	place txt3 440 500;
+	end;
+}

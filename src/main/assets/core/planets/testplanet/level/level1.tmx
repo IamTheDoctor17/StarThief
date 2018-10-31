@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="14">
+ <tileset firstgid="1" name="tileset1" tilewidth="32" tileheight="32" tilecount="667">
+  <image source="tilesets/tileset1.png" width="736" height="928"/>
+ </tileset>
+ <tileset firstgid="668" name="tilesetlogic" tilewidth="32" tileheight="32" tilecount="1">
+  <image source="tilesets/tilesetlogic.png" width="32" height="32"/>
+ </tileset>
+ <layer name="main" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PsQmEUBAG4TWzCa8GI4tQu7AJq5Cr4ur0mb1AUBDOWZhg2GSD/5ubiF/k7lMM33L7i7obP2+2hQ5Sdx1PG0/K5jgzZHPUu5eqbI6pKrPjX+lgpYOVDlY6WOlgpYOVDlY6WOlgpYOVDlY6WOlgpYOVDlY6WOlgpYOVDlY6WB2OtolYI3dDMeyZ5OESECcAAA==
+  </data>
+ </layer>
+ <layer name="logic" width="50" height="50" opacity="0.50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3aywnAIBAAUbH/EizWCvwtiqPMg72FbAb0lpJTKp/MyMwzN9nBMtuxa8/KWY68/6TonYzsOKX13Xb097zODhY7WOxgsYPFDhY7WOxgsYPFDhY7WOxgsYPFDhY7WOxgsYPFDhY7WOxgsYNl9T8t8lRMW+NkECcAAA==
+  </data>
+ </layer>
+ <objectgroup name="trigger" width="50" height="50">
+  <object id="0" name="toLevel2" type="nextLevel" x="831" y="195" width="96" height="28"/>
+ </objectgroup>
+</map>
